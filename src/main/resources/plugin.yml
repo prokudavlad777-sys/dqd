@@ -1,0 +1,14 @@
+name: GunsPlugin
+version: '${version}'
+main: dev.guns.GunsPlugin
+api-version: '26.3'
+description: Револьвер і обріз з кастомними текстурами
+commands:
+  gun:
+    description: Вибрати зброю (револьвер або обріз)
+    usage: /gun [revolver|shotgun]
+    permission: guns.use
+permissions:
+  guns.use:
+    description: Дозволяє користуватись командою /gun
+    default: true
